@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {9E8BB32A-C363-486F-9EE5-92EFCA25FAB7}
+database: master
+path: /sitecore/templates/Data Exchange/Providers/File/Folders/File Apply Mapping Rules Root/__Standard Values
+parent: {A86D3B14-7BF9-4E4F-9BEB-800E0FE621D9}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {A86D3B14-7BF9-4E4F-9BEB-800E0FE621D9}
+templatekey: File Apply Mapping Rules Root
+
+----version----
+language: en
+version: 1
+revision: bbc0532b-12af-446e-8c35-fee90705fece
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 18
+
+sitecore\Anonymous
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200408T031438Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 18
+
+sitecore\Anonymous
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bbc0532b-12af-446e-8c35-fee90705fece
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200408T031438Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 18
+
+sitecore\Anonymous

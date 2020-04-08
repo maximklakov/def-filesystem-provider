@@ -1,15 +1,15 @@
 ﻿using System.Collections;
 using System.IO;
-using FileProvider.Endpoints;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Sitecore.DataExchange.Contexts;
 using Sitecore.DataExchange.Models;
 using Sitecore.DataExchange.Plugins;
 using Sitecore.DataExchange.Processors.PipelineSteps;
+using Sitecore.DataExchange.Providers.File.Endpoints;
 using Sitecore.Services.Core.Diagnostics;
 
-namespace FileProvider.PipelineSteps
+namespace Sitecore.DataExchange.Providers.File.PipelineSteps
 {
     public class ReadJsonFilePipelineStepProcessor : BaseReadDataStepProcessor
     {
@@ -32,7 +32,7 @@ namespace FileProvider.PipelineSteps
             }
 
             IEnumerable jarray;
-            using (StreamReader file = File.OpenText(endpointSettings.FilePath))
+            using (StreamReader file = System.IO.File.OpenText(endpointSettings.FilePath))
             using (JsonTextReader reader = new JsonTextReader(file))
             {
                 JToken o2 = JToken.ReadFrom(reader);
@@ -52,6 +52,8 @@ namespace FileProvider.PipelineSteps
                 logger.Error("Trying to read object, that is not an IEnumerable");
                 return;
             }
+
+            logger.Info("Data were read from file");
             var dataSettings = new IterableDataSettings() {Data = jarray};
             pipelineContext.AddPlugin(dataSettings);
         }
