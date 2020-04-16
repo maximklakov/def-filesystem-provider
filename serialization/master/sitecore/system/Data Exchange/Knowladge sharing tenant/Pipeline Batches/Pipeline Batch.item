@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {88E93995-2EAF-432E-95B1-B8405E19E36E}
+database: master
+path: /sitecore/system/Data Exchange/Knowladge sharing tenant/Pipeline Batches/Pipeline Batch
+parent: {CAC2D068-85AD-4753-BED2-27321B46A95B}
+name: Pipeline Batch
+master: {00000000-0000-0000-0000-000000000000}
+template: {075C4FBD-F54E-4E6D-BD54-D49BDA0913D8}
+templatekey: Pipeline Batch
+
+----field----
+field: {9061BEEA-DF25-4B2B-A698-3F5B4E867D18}
+name: Pipelines
+key: pipelines
+content-length: 38
+
+{5FE0E88F-9BEF-4F16-94D2-8A149A77D5BF}
+----field----
+field: {985BA535-0F3E-4DA8-A768-A469026DE9DB}
+name: RequestedAt
+key: requestedat
+content-length: 0
+
+
+----field----
+field: {6A2B2CBB-4338-4814-A8A9-9FECBB90456A}
+name: LastRunFinished
+key: lastrunfinished
+content-length: 0
+
+
+----field----
+field: {2AA5C591-FF55-411D-96C0-978BB2C58B94}
+name: Log
+key: log
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 258bf577-22ee-43ed-93d2-8460a3c27263
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200408T041149Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+258bf577-22ee-43ed-93d2-8460a3c27263
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200416T134036Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

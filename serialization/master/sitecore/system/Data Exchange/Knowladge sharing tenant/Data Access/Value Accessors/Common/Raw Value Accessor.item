@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {C432FA1C-9843-4016-8063-829B5AB44616}
+database: master
+path: /sitecore/system/Data Exchange/Knowladge sharing tenant/Data Access/Value Accessors/Common/Raw Value Accessor
+parent: {E7A6A9F3-1B2C-486B-AF7B-0510A3E9A1DD}
+name: Raw Value Accessor
+master: {00000000-0000-0000-0000-000000000000}
+template: {5C8862A6-7B47-4354-92F6-11EB080E6D0C}
+templatekey: Value Accessor
+
+----field----
+field: {E08E3C9C-A3C1-447B-AE78-0AEA3A691E6E}
+name: ValueReader
+key: valuereader
+content-length: 38
+
+{3833CD3C-9587-4121-9D87-B7A1F5A1DE1E}
+----version----
+language: en
+version: 1
+revision: a3ce0768-5884-4ef2-9860-40d8f9092cad
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200408T100933Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a3ce0768-5884-4ef2-9860-40d8f9092cad
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200408T102251Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

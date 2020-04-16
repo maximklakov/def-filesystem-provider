@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {C82193DA-E849-479D-A354-7E90C9DD9E61}
+database: master
+path: /sitecore/templates/Data Exchange/Providers/File/Data Access/Value Accessors/Json Node Value Accessor/__Standard Values
+parent: {AC61B7C3-0EBD-4275-A099-2254CDCBA541}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {AC61B7C3-0EBD-4275-A099-2254CDCBA541}
+templatekey: Json Node Value Accessor
+
+----field----
+field: {3C7F78CC-0C5C-4076-80EF-9A49FDA5FF96}
+name: ConverterType
+key: convertertype
+content-length: 131
+
+Sitecore.DataExchange.Providers.File.DataAccess.ValueAccessors.JsonNodeValueAccessorConverter, Sitecore.DataExchange.Providers.File
+----version----
+language: en
+version: 1
+revision: 19e9bdd9-439e-41bd-8de2-c1586b422041
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200414T031324Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+19e9bdd9-439e-41bd-8de2-c1586b422041
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200414T034607Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

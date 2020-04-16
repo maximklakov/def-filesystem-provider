@@ -9,7 +9,7 @@ namespace Sitecore.DataExchange.Providers.File.PipelineSteps
     [SupportedIds("{4C018FFF-5DD8-4013-B756-6D626D9D8B1A}")]
     public class ReadJsonFilePipelineStepConverter: BaseReadObjectsFromEndpointStepConverter
     {
-        private const string JPathFieldName = "JPath";
+        public const string JPathFieldName = "JPath";
         public ReadJsonFilePipelineStepConverter(IItemModelRepository repository) : base(repository)
         {
         }

@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {A7151FD5-1ABE-424B-8DC9-5BB8915640C3}
+database: master
+path: /sitecore/system/Data Exchange/Knowladge sharing tenant/Pipelines/Pipelines Folder/Read Json From File/ReadFilePieplineStep
+parent: {5FE0E88F-9BEF-4F16-94D2-8A149A77D5BF}
+name: ReadFilePieplineStep
+master: {00000000-0000-0000-0000-000000000000}
+template: {4C018FFF-5DD8-4013-B756-6D626D9D8B1A}
+templatekey: ReadJsonFilePieplineStep
+
+----field----
+field: {9415EBD6-0A40-4E03-817F-23497978BF2E}
+name: EndpointFrom
+key: endpointfrom
+content-length: 38
+
+{19F9862F-38B1-4D04-9B28-F8C1413FA961}
+----version----
+language: en
+version: 1
+revision: fb29e5a2-a22d-47fe-a057-e8dc016806ca
+
+----field----
+field: {3293AC25-8B8E-47E0-881C-D453DF3BC591}
+name: JPath
+key: jpath
+content-length: 6
+
+colors
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200408T033431Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fb29e5a2-a22d-47fe-a057-e8dc016806ca
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200408T033939Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
